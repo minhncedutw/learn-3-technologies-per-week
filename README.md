@@ -1,5 +1,5 @@
 # learn-3-technologies-per-week
-Each 7 days, learn 3 new techniques/technologies. Each time finishing 3-learning, it's able to jump to next streak of 3-learning.
+> Each 7 days, learn 3 new techniques/technologies. Each time finishing 3-learning, it's able to jump to next streak of 3-learning.
 
 ## Streak 1(20191012-20191019): S-S-M-T-W-T-F
 
@@ -27,3 +27,4 @@ Each 7 days, learn 3 new techniques/technologies. Each time finishing 3-learning
 ### 2 - ___ 201910__:
 
 ### 3 - ___ 201910__:
+
