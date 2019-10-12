@@ -13,11 +13,11 @@
  - TaaC(Test Case as a Code): mỗi test case đc thực hiện tự động bằng code, không phải test bằng tay.
  - Automation Test: tự động thực hiện các TaaC.
  - Phân loại Test:
-  + Black-box testing:
-   1. Acceptance testing: test project/test product.
-  + White-box testing:
-   1. Unit testing: test method(function) hoặc class(struct).
-   2. Functional testing: test tính năng(feature), hay chuỗi chức năng(sequence of functions).
+    + Black-box testing:
+        1. Acceptance testing: test project/test product.
+    + White-box testing:
+        1. Unit testing: test method(function) hoặc class(struct).
+        2. Functional testing: test tính năng(feature), hay chuỗi chức năng(sequence of functions).
 
 **Lecture**
  - General view: https://medium.com/@cuonggt/t%E1%BA%A3n-m%E1%BA%A1n-v%E1%BB%81-testing-15786963844
