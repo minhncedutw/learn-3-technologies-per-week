@@ -24,7 +24,24 @@
 
  - Nice definition: https://manhhomienbienthuy.github.io/2015/Dec/03/test-driven-development.html
 
-### 2 - ___ 201910__:
+### 2 - Mon 20191014: CI/CD(Continuous Integration/Continuous Deployment)
+
+**CI(Continuous Integration)** là một phương pháp phát triển phầm trong đó, mỗi khi phần mềm được update tính năng, nó sẽ được kiểm tra một cách tự động, để phát hiện và thông báo lỗi sớm nhất cho developer, để fix ngay trong quá trình implementation.
+![](https://viblo.asia/uploads/3ebb97df-6767-40dc-88ae-38cf392391f7.jpg)
+
+**CD(Continuous Deployment)** là deploy sản phầm lên môi trường test, staging hay production một cách hoàn toàn tự động vào bất cứ khi nào.
+![](https://viblo.asia/uploads/96d66313-9194-4e00-8f2d-d0e085135958.png)
+
+**Tools for CI/CD**
+ - Circle CI
+ - Travis CI
+ - Jenkins
+
+**Lecture**
+ - [Gerrit Code Review with Jenkins CI : Tích hợp CI / CD](https://viblo.asia/p/part-3-gerrit-code-review-with-jenkins-ci-tich-hop-ci-cd-eW65GYWOZDO#_vay-ci-cd-la-gi--2)
+ - [Continuous Integration with Jenkins](https://viblo.asia/p/continuous-integration-with-jenkins-bai-1-gioi-thieu-ve-ci-va-jenkins-OeVKBggEZkW)
+ - [Hướng dẫn tích hợp Travis-CI vào project trên github](https://toidicodedao.com/2015/09/15/huong-dan-tich-hop-travis-ci-vao-project-tren-github/)
+ - **Pending of reading**: [Áp dụng CI/CD vào project của bạn (P1)](https://viblo.asia/p/ap-dung-cicd-vao-project-cua-ban-p1-gDVK2Q8e5Lj) + [Giới thiệu CI và áp dụng thực tế tool Circle CI](https://kipalog.com/posts/Gioi-thieu-CI-va-ap-dung-thuc-te-tool-Circle-CI)
 
 ### 3 - ___ 201910__:
 
