@@ -68,7 +68,7 @@ void main()
  - way 3rd: `devenv project.sln /Build `
 
 **Note!**
- - to run `cl` from command line, firstly execute: `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64` or `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsx64.bat"`
+ - to run `cl` from command line, firstly execute: `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64` or `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"`
  - to run `cl` from cmder, add task to settings: `cmd /k ""C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64"`
  - explain [/EH (Exception Handling Model)](https://github.com/MicrosoftDocs/cpp-docs/blob/master/docs/build/reference/eh-exception-handling-model.md)
  - to compile multiple files: `cl /EHsc file1.cpp file2.cpp file3.cpp`
