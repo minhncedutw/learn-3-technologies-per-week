@@ -62,6 +62,11 @@ void main()
 
 *Refered from* [Walkthrough: Compiling a Native C++ Program on the Command Line](https://github.com/MicrosoftDocs/cpp-docs/blob/master/docs/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line.md)
 
+**Compile a Visual Studio project from the command-line**
+ - way 1st: `msbuild project.sln /Flags...`
+ - way 2nd: `vcexpress project.sln /Build /Flags...`
+ - way 3rd: `devenv project.sln /Build `
+
 **Note!**
  - to run `cl` from command line, firstly execute: `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64` or `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsx64.bat"`
  - to run `cl` from cmder, add task to settings: `cmd /k ""C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64"`
@@ -71,4 +76,3 @@ void main()
  - to set the warning level when building: `cl /W4 /EHsc file1.cpp`
 
 
- 
