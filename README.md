@@ -66,6 +66,9 @@ void main()
  - way 1st: `msbuild project.sln /Flags...`
  - way 2nd: `vcexpress project.sln /Build /Flags...`
  - way 3rd: `devenv project.sln /Build `
+![](files/streak01-day03/command-line-tools.png)
+
+*Refered from* [Use the Microsoft C++ toolset from the command line](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019)
 
 **Note!**
  - to run `cl` from command line, firstly execute: `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64` or `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"`
