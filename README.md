@@ -66,6 +66,7 @@ void main()
  - way 1st: `msbuild project.sln /Flags...`
  - way 2nd: `vcexpress project.sln /Build /Flags...`
  - way 3rd: `devenv project.sln /Build `
+
 ![](files/streak01-day03/command-line-tools.png)
 
 *Refered from* [Use the Microsoft C++ toolset from the command line](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019)
