@@ -43,5 +43,32 @@
  - [Hướng dẫn tích hợp Travis-CI vào project trên github](https://toidicodedao.com/2015/09/15/huong-dan-tich-hop-travis-ci-vao-project-tren-github/)
  - **Pending of reading**: [Áp dụng CI/CD vào project của bạn (P1)](https://viblo.asia/p/ap-dung-cicd-vao-project-cua-ban-p1-gDVK2Q8e5Lj) + [Giới thiệu CI và áp dụng thực tế tool Circle CI](https://kipalog.com/posts/Gioi-thieu-CI-va-ap-dung-thuc-te-tool-Circle-CI)
 
-### 3 - ___ 201910__:
+### 3 - Thu 20191017: Build Visual C++ from command line
 
+**Steps to Create a Visual C++ source file and Compile it on the command line**
+ - create `hello` folder and a `hello.cpp` file inside with content:
+```cpp
+// hello/hello.cpp
+#include <iostream>
+using namespace std;
+void main()
+{
+    cout << "Hello, world, from Visual C++!" << endl;
+}
+```
+ - in command line, cd to `hello` folder
+ - to compile program, execute: `C:\...\hello>cl /EHsc hello.cpp`
+ - to run the built exe file, execute: `hello.exe`
+
+*Refered from* [Walkthrough: Compiling a Native C++ Program on the Command Line](https://github.com/MicrosoftDocs/cpp-docs/blob/master/docs/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line.md)
+
+**Note!**
+ - to run `cl` from command line, firstly execute: `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64` or `call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsx64.bat"`
+ - to run `cl` from cmder, add task to settings: `cmd /k ""C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64"`
+ - explain [/EH (Exception Handling Model)](https://github.com/MicrosoftDocs/cpp-docs/blob/master/docs/build/reference/eh-exception-handling-model.md)
+ - to compile multiple files: `cl /EHsc file1.cpp file2.cpp file3.cpp`
+ - to rename the output file: `cl /EHsc file1.cpp /link /out:program1.exe`
+ - to set the warning level when building: `cl /W4 /EHsc file1.cpp`
+
+
+ 
